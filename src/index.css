@@ -39,6 +39,7 @@
     margin: 0;
     overflow: hidden;
     text-overflow: ellipsis;
+    display: -webkit-box;
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
 }
@@ -104,4 +105,7 @@
 .author, .date {
     color: gray;
     margin: 0;
+}
+.date {
+    margin-top: 20px;
 }
